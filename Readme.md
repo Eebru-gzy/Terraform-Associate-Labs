@@ -1,10 +1,10 @@
-## Install
+# Install
 
 [Install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli#install-terraform) following the offical instructions
 
 [Install HashiCorp Terraform VSCode Instructions](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform)
 
-We'll mostly be using AWS as the primary provider. 
+We'll mostly be using AWS as the primary provider.
 If you want to follow along for all labs you'll need accounts for:
 
 - [Amazon Web Services (AWS)](https://aws.amazon.com/)
@@ -20,6 +20,7 @@ Google Cloud SDK
 ## Getting Started
 
 We are going to learn the basics of Terraform:
+
 - Creating main.tf
 - Add AWS Provider
 - Generate and configure AWS credentials
@@ -58,9 +59,7 @@ We are going to learn the basics of Terraform:
 - Provision Spotify Playlist
 - Provision Minecraft Server
 
-
 ## Terraform Registry
-
 
 ## Variables and Outputs
 
@@ -91,6 +90,7 @@ We are going to learn the basics of Terraform:
 - Versions Constraints
 
 ## Terraform State
+
 - terraform state list
 - terraform state mv
 - terraform state show
@@ -148,15 +148,15 @@ We are going to learn the basics of Terraform:
 
 - Multiple workspaces Terraform Cloud
 
-# Sentinel
+## Sentinel
 
 - Sentinel Mocks
 - Policy Set
 
-# Vault
+## Vault
 
 Vault with Terraform
 
-# Packer
+## Packer
 
 Packer with Terraform

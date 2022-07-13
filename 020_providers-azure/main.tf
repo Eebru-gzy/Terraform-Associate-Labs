@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     azurerm = {
-      source = "hashicorp/azurerm"
-      version = "2.77.0"
+      source  = "hashicorp/azurerm"
+      version = "3.12.0"
     }
   }
 }
@@ -12,8 +12,8 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "terraform_azure_providers" {
-	name = "terraform_azure_providers"
-	location = "East US"
+  name     = "terraform_azure_providers"
+  location = "France Central"
 }
 
 module "linuxservers" {

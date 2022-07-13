@@ -123,3 +123,10 @@
     }
   ]
 }
+
+tfs list, mv, pull, push, replace-provider, rm, show.
+
+tfs mv examples
+tfs mv [rersource.resource_name] [rersource.new_resource_name] => renames a resource
+tfs mv [rersource.resource_name] [module.name.resource.name] => moves a resource into a module
+tfs mv [module.module_name] [module.parent.module.module_name] => moves a module into a module

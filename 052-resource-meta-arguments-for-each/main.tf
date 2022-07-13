@@ -12,6 +12,7 @@ provider "aws" {
   region  = "us-east-1"
 }
 resource "aws_instance" "my_server" {
+  # for_each = toset( ["Todd", "James", "Alice", "Dottie"] )
 	for_each = {
 		nano = "t2.nano"
 		micro =  "t2.micro"
