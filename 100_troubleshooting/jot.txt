@@ -1,0 +1,6 @@
+Set TF_LOG env to any of the values; TRACE DEBUG INFO WARN ERROR JASON
+
+For core errors set TF_LOG_CORE
+For providers errors set TF_LOG_PROVIDER
+
+Set log path TF_LOG_PATH to sepcify where to recieve logs
