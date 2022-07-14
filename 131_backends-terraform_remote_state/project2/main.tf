@@ -1,6 +1,6 @@
 provider "aws" {
 	profile = "default"
-	region = "us-east-1"
+	region = "eu-west-3"
 }
 
 data "terraform_remote_state" "vpc" {
@@ -11,7 +11,7 @@ data "terraform_remote_state" "vpc" {
 }
 
 module "apache" {
-  source  = "../../110_modules/terraform-aws-apache-example"
+  source  = "ExamProCo/apache-example/aws"
   #version = "1.0.0"
 	vpc_id = data.terraform_remote_state.vpc.outputs.vpc_id
 	my_ip_with_cidr = var.my_ip_with_cidr
