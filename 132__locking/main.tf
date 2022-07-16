@@ -1,9 +1,9 @@
 terraform {
-  backend "remote" {
-    organization = "ExamPro"
+  cloud {
+    organization = "Eebru"
 
     workspaces {
-      name = "force-unlocking"
+      name = "Force-locking"
     }
   }
 }

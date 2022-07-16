@@ -1,4 +1,4 @@
-	my_ip_with_cidr = "0.0.0.0/0"
-	public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC8GjwtioJsr5gRwD4qYDJwDAMF0rlkDSWy+dhs3tw2mTIWhrueQdc/XjtvzEhkwrR1+983m2UmMfNb9B7Tw2ksHBfocHH4wrObyda823qQN02fo4OWtbf+YGSU1h5rmcYJvLTdCXIFJMYoUW35SozEkBrn8C7EiyskefDBvS8ZoSWUBJhTRIfg9+Dxmz7jyAkUtli2fQeveoCS8fEvmlXq8gcB/I1Hc5ODJQjccY/82YGpk6UaGAfmNoeaE74sU05s+vWbZP40s/N8swD535XKpaejq0x92po1NB3wSs0UoRh7OfK8yAj20lcQ0FGUOZQMzNOAhmPQDXbOMCy9x0231dWNtSSqpegV8kzn4jU+hI9k1QhUgMKc3Hcgvxq3xBFTO/+of+bAcGmEANdjg46HOW9Np5+0fLVgneWA3tjqmD+4llSS8mFR9LYTyRJbzBcyJ1meWbE/86D1IhP3BSZhslcJt3TN8p/ZC2Ic0vduuo2hW7bgx7SxtJ+Krq6XNA0= eebru@eebruPc"
-	instance_type = "t2.micro"
- 	server_name = "Apache Example Server"
+my_ip_with_cidr = "0.0.0.0/0"
+public_key      = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC8GjwtioJsr5gRwD4qYDJwDAMF0rlkDSWy+dhs3tw2mTIWhrueQdc/XjtvzEhkwrR1+983m2UmMfNb9B7Tw2ksHBfocHH4wrObyda823qQN02fo4OWtbf+YGSU1h5rmcYJvLTdCXIFJMYoUW35SozEkBrn8C7EiyskefDBvS8ZoSWUBJhTRIfg9+Dxmz7jyAkUtli2fQeveoCS8fEvmlXq8gcB/I1Hc5ODJQjccY/82YGpk6UaGAfmNoeaE74sU05s+vWbZP40s/N8swD535XKpaejq0x92po1NB3wSs0UoRh7OfK8yAj20lcQ0FGUOZQMzNOAhmPQDXbOMCy9x0231dWNtSSqpegV8kzn4jU+hI9k1QhUgMKc3Hcgvxq3xBFTO/+of+bAcGmEANdjg46HOW9Np5+0fLVgneWA3tjqmD+4llSS8mFR9LYTyRJbzBcyJ1meWbE/86D1IhP3BSZhslcJt3TN8p/ZC2Ic0vduuo2hW7bgx7SxtJ+Krq6XNA0= eebru@eebruPc"
+instance_type   = "t2.micro"
+server_name     = "Apache Example Server"
